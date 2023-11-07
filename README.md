@@ -17,3 +17,7 @@ b) something_else by rule on a`);
 2) something_else by rule on 1
 */
 ```
+
+You can also install the userscript that updates the [Ask George](https://student.cs.uwaterloo.ca/~se212/george/ask-george/) interface. This can be done by installing a userscript manager like [Tampermonkey](https://www.tampermonkey.net/) and then installing [GeorgeRenumberLines.user.js](https://github.com/w4zEl/GeorgeRenumberLines/raw/master/GeorgeRenumberLines.user.js) (just click the link to be prompted to install).
+
+After installation, when you select a proof in Ask George and press Ctrl + Q (or Command + Q), that proof will be renumbered.
