@@ -10,9 +10,9 @@
 // @grant        none
 // ==/UserScript==
 
-!function() {
+~function() {
     'use strict';
-    const editor = ace.edit(document.querySelector('#Editor') ? 'Editor' : 'ace-editor');
+    const editor = ace.edit(document.querySelector('.ace_editor'));
     editor.commands.addCommand({
         name: 'Renumber',
         bindKey: {win: 'Ctrl-Q', mac: 'Command-Q'},
